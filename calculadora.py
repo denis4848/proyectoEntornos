@@ -34,6 +34,27 @@ def division():
         print("la división de", n1, "y", n2, "es: ", n2/n1)
     if(n1==0):
         print("No se puede dividir entre 0")
+def modulo():
+        n1=int(input("Dame numero 1"))
+        n2=int(input("Dame numero 2"))
+        if(n1>n2 & n2!=0):
+            print("el modulo de", n1, "y", n2, "es: ", n1%n2)
+        if(n2==0):
+            print("No se puede dividir entre 0")
+        elif(n2>n1 & n1!=0):
+            print("el modulo de", n1, "y", n2, "es: ", n2%n1)
+        if(n1==0):
+            print("No se puede dividir entre 0")
+            
+def exponente():
+        n1=int(input("Dame numero 1"))
+        n2=int(input("Dame numero 2"))
+        print("el exponente de", n1, "y", n2, "es: ", n1**n2)
+
+def cociente():
+        n1=int(input("Dame numero 1"))
+        n2=int(input("Dame numero 2"))
+        print("el cociente de", n1, "y", n2, "es: ", n1//n2)
 #programa///////////////////////////////////////////
 
       
@@ -47,6 +68,9 @@ while (x!=0):
     2.- resta
     3.- multiplicacion 
     4.- division
+    6.- modulo 
+    7.- cociente 
+    8.- exponente 
     Dame un numero: 
         """))
 
@@ -58,5 +82,11 @@ while (x!=0):
         multiplicacion()
     elif(x==4): #division
        division()
+    elif(x==6): #modulo
+       modulo()
+    elif(x==7): #cociente
+        cociente()
+    elif(x==8): #exponente
+        exponente()
 
     
