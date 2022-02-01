@@ -66,7 +66,7 @@ def areaCuadrado():
                 cuadrado=i*i
                 print("el area del cuadrado",cont, "de lado ",i, "es ", cuadrado)
             
-def areaCirculo():
+def areaDeVariosCirculos():
         maxx=int(input("Cantidad de circulos que deseas"))
         cont=0
         for i in range(1,maxx*2+1):
@@ -120,6 +120,6 @@ while (x!=0):
     elif(x==9): #area cuadrado
         areaCuadrado()
     elif(x==5): #area circulo
-        areaCirculo()
+        areaDeVariosCirculos()
     elif(x==10): #area triangulo
         areaTriangulo()
