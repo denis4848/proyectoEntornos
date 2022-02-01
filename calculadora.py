@@ -58,6 +58,5 @@ while (x!=0):
         multiplicacion()
     elif(x==4): #division
        division()
-    elif(x==6): #modulo
-       modulo()
+
     
